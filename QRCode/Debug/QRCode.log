@@ -1,0 +1,156 @@
+﻿生成启动时间为 2016/6/25 20:05:17。
+项目“C:\Users\frieda\Desktop\113172241QRCode\QRCode\QRCode.vcxproj”在节点 2 上(Rebuild 个目标)。
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\ZBar\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\QRCode.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+c:\program files\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+          c:\program files\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33) : 参见“MBCS_Support_Deprecated_In_MFC”的声明
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(12): warning C4005: “DXGI_STATUS_OCCLUDED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50092) : 参见“DXGI_STATUS_OCCLUDED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(13): warning C4005: “DXGI_STATUS_CLIPPED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50101) : 参见“DXGI_STATUS_CLIPPED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(14): warning C4005: “DXGI_STATUS_NO_REDIRECTION”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50110) : 参见“DXGI_STATUS_NO_REDIRECTION”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(15): warning C4005: “DXGI_STATUS_NO_DESKTOP_ACCESS”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50119) : 参见“DXGI_STATUS_NO_DESKTOP_ACCESS”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(16): warning C4005: “DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50128) : 参见“DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(17): warning C4005: “DXGI_STATUS_MODE_CHANGED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50137) : 参见“DXGI_STATUS_MODE_CHANGED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(18): warning C4005: “DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50146) : 参见“DXGI_STATUS_MODE_CHANGE_IN_PROGRESS”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(21): warning C4005: “DXGI_ERROR_INVALID_CALL”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50161) : 参见“DXGI_ERROR_INVALID_CALL”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(22): warning C4005: “DXGI_ERROR_NOT_FOUND”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50170) : 参见“DXGI_ERROR_NOT_FOUND”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(23): warning C4005: “DXGI_ERROR_MORE_DATA”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50179) : 参见“DXGI_ERROR_MORE_DATA”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(24): warning C4005: “DXGI_ERROR_UNSUPPORTED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50188) : 参见“DXGI_ERROR_UNSUPPORTED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(25): warning C4005: “DXGI_ERROR_DEVICE_REMOVED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50197) : 参见“DXGI_ERROR_DEVICE_REMOVED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(26): warning C4005: “DXGI_ERROR_DEVICE_HUNG”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50206) : 参见“DXGI_ERROR_DEVICE_HUNG”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(27): warning C4005: “DXGI_ERROR_DEVICE_RESET”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50216) : 参见“DXGI_ERROR_DEVICE_RESET”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(28): warning C4005: “DXGI_ERROR_WAS_STILL_DRAWING”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50225) : 参见“DXGI_ERROR_WAS_STILL_DRAWING”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(29): warning C4005: “DXGI_ERROR_FRAME_STATISTICS_DISJOINT”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50235) : 参见“DXGI_ERROR_FRAME_STATISTICS_DISJOINT”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(30): warning C4005: “DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50244) : 参见“DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(31): warning C4005: “DXGI_ERROR_DRIVER_INTERNAL_ERROR”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50254) : 参见“DXGI_ERROR_DRIVER_INTERNAL_ERROR”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(32): warning C4005: “DXGI_ERROR_NONEXCLUSIVE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50263) : 参见“DXGI_ERROR_NONEXCLUSIVE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(33): warning C4005: “DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50272) : 参见“DXGI_ERROR_NOT_CURRENTLY_AVAILABLE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(34): warning C4005: “DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50282) : 参见“DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dxgitype.h(35): warning C4005: “DXGI_ERROR_REMOTE_OUTOFMEMORY”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50291) : 参见“DXGI_ERROR_REMOTE_OUTOFMEMORY”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(59): warning C4005: “D2DERR_WRONG_STATE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50511) : 参见“D2DERR_WRONG_STATE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(64): warning C4005: “D2DERR_NOT_INITIALIZED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50520) : 参见“D2DERR_NOT_INITIALIZED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(69): warning C4005: “D2DERR_UNSUPPORTED_OPERATION”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50529) : 参见“D2DERR_UNSUPPORTED_OPERATION”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(74): warning C4005: “D2DERR_SCANNER_FAILED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50538) : 参见“D2DERR_SCANNER_FAILED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(79): warning C4005: “D2DERR_SCREEN_ACCESS_DENIED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50547) : 参见“D2DERR_SCREEN_ACCESS_DENIED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(84): warning C4005: “D2DERR_DISPLAY_STATE_INVALID”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50556) : 参见“D2DERR_DISPLAY_STATE_INVALID”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(89): warning C4005: “D2DERR_ZERO_VECTOR”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50565) : 参见“D2DERR_ZERO_VECTOR”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(97): warning C4005: “D2DERR_INTERNAL_ERROR”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50574) : 参见“D2DERR_INTERNAL_ERROR”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(103): warning C4005: “D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50583) : 参见“D2DERR_DISPLAY_FORMAT_NOT_SUPPORTED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(108): warning C4005: “D2DERR_INVALID_CALL”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50592) : 参见“D2DERR_INVALID_CALL”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(113): warning C4005: “D2DERR_NO_HARDWARE_DEVICE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50601) : 参见“D2DERR_NO_HARDWARE_DEVICE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(119): warning C4005: “D2DERR_RECREATE_TARGET”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50610) : 参见“D2DERR_RECREATE_TARGET”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(124): warning C4005: “D2DERR_TOO_MANY_SHADER_ELEMENTS”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50619) : 参见“D2DERR_TOO_MANY_SHADER_ELEMENTS”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(129): warning C4005: “D2DERR_SHADER_COMPILE_FAILED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50628) : 参见“D2DERR_SHADER_COMPILE_FAILED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(134): warning C4005: “D2DERR_MAX_TEXTURE_SIZE_EXCEEDED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50637) : 参见“D2DERR_MAX_TEXTURE_SIZE_EXCEEDED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(139): warning C4005: “D2DERR_UNSUPPORTED_VERSION”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50646) : 参见“D2DERR_UNSUPPORTED_VERSION”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(144): warning C4005: “D2DERR_BAD_NUMBER”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50655) : 参见“D2DERR_BAD_NUMBER”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(149): warning C4005: “D2DERR_WRONG_FACTORY”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50664) : 参见“D2DERR_WRONG_FACTORY”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(154): warning C4005: “D2DERR_LAYER_ALREADY_IN_USE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50673) : 参见“D2DERR_LAYER_ALREADY_IN_USE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(159): warning C4005: “D2DERR_POP_CALL_DID_NOT_MATCH_PUSH”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50682) : 参见“D2DERR_POP_CALL_DID_NOT_MATCH_PUSH”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(164): warning C4005: “D2DERR_WRONG_RESOURCE_DOMAIN”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50691) : 参见“D2DERR_WRONG_RESOURCE_DOMAIN”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(169): warning C4005: “D2DERR_PUSH_POP_UNBALANCED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50700) : 参见“D2DERR_PUSH_POP_UNBALANCED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(174): warning C4005: “D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50709) : 参见“D2DERR_RENDER_TARGET_HAS_LAYER_OR_CLIPRECT”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(179): warning C4005: “D2DERR_INCOMPATIBLE_BRUSH_TYPES”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50718) : 参见“D2DERR_INCOMPATIBLE_BRUSH_TYPES”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(184): warning C4005: “D2DERR_WIN32_ERROR”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50727) : 参见“D2DERR_WIN32_ERROR”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(189): warning C4005: “D2DERR_TARGET_NOT_GDI_COMPATIBLE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50736) : 参见“D2DERR_TARGET_NOT_GDI_COMPATIBLE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(194): warning C4005: “D2DERR_TEXT_EFFECT_IS_WRONG_TYPE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50745) : 参见“D2DERR_TEXT_EFFECT_IS_WRONG_TYPE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(201): warning C4005: “D2DERR_TEXT_RENDERER_NOT_RELEASED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50754) : 参见“D2DERR_TEXT_RENDERER_NOT_RELEASED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d2derr.h(206): warning C4005: “D2DERR_EXCEEDS_MAX_BITMAP_SIZE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50763) : 参见“D2DERR_EXCEEDS_MAX_BITMAP_SIZE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d3d10.h(608): warning C4005: “D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50445) : 参见“D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50454) : 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4962): warning C4005: “DWRITE_E_FILEFORMAT”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50921) : 参见“DWRITE_E_FILEFORMAT”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4967): warning C4005: “DWRITE_E_UNEXPECTED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50930) : 参见“DWRITE_E_UNEXPECTED”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4972): warning C4005: “DWRITE_E_NOFONT”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50939) : 参见“DWRITE_E_NOFONT”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4978): warning C4005: “DWRITE_E_FILENOTFOUND”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50948) : 参见“DWRITE_E_FILENOTFOUND”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4983): warning C4005: “DWRITE_E_FILEACCESS”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50957) : 参见“DWRITE_E_FILEACCESS”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4988): warning C4005: “DWRITE_E_FONTCOLLECTIONOBSOLETE”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50966) : 参见“DWRITE_E_FONTCOLLECTIONOBSOLETE”的前一个定义
+c:\program files\microsoft directx sdk (june 2010)\include\dwrite.h(4993): warning C4005: “DWRITE_E_ALREADYREGISTERED”: 宏重定义
+          c:\program files\windows kits\8.1\include\shared\winerror.h(50975) : 参见“DWRITE_E_ALREADYREGISTERED”的前一个定义
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\ZBar\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\QRCode.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IniFile.cpp QRCode.cpp QRCodeDlg.cpp SystemTray.cpp
+  SystemTray.cpp
+c:\users\frieda\desktop\113172241qrcode\qrcode\systemtray.cpp(152): warning C4996: 'GetVersionExA': 被声明为已否决
+          c:\program files\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+c:\users\frieda\desktop\113172241qrcode\qrcode\systemtray.cpp(191): warning C4996: 'GetVersion': 被声明为已否决
+          c:\program files\windows kits\8.1\include\um\sysinfoapi.h(110) : 参见“GetVersion”的声明
+  QRCodeDlg.cpp
+  QRCode.cpp
+  IniFile.cpp
+c:\users\frieda\desktop\113172241qrcode\qrcode\inifile.cpp(259): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\frieda\desktop\113172241qrcode\qrcode\inifile.cpp(289): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+ResourceCompile:
+  C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /IDebug\ /nologo /fo"Debug\QRCode.res" QRCode.rc 
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\frieda\Desktop\113172241QRCode\Debug\QRCode.exe" /INCREMENTAL /NOLOGO opencv_ml249d.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_objdetect249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_nonfree249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_videostab249d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\frieda\Desktop\113172241QRCode\Debug\QRCode.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\frieda\Desktop\113172241QRCode\Debug\QRCode.lib" /MACHINE:X86 /SAFESEH /FORCE:MULTIPLE Debug\QRCode.res
+  Debug\IniFile.obj
+  Debug\QRCode.obj
+  Debug\QRCodeDlg.obj
+  Debug\stdafx.obj
+  Debug\SystemTray.obj
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+IniFile.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+  QRCode.vcxproj -> C:\Users\frieda\Desktop\113172241QRCode\Debug\QRCode.exe
+已完成生成项目“C:\Users\frieda\Desktop\113172241QRCode\QRCode\QRCode.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.84
